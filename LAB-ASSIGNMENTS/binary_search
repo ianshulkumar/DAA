@@ -37,6 +37,5 @@ int main(){
     int a[7]={1,3,8,12,18,27,80};
     // cout<<bs(a,80,0,6);
     cout<<recursive_binary_search(a,80,0,6);
-//   cout<<(sizeof(a)/sizeof(int));  
     return 0;
 }
