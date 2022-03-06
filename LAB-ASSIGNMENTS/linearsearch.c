@@ -3,11 +3,11 @@ int linearsearch(int arr[],int n,int key){
   int i;
   for(i=0;i<n;i++){
     if(key==arr[i]){
-        printf("Key Found at index %d\n%d\n",i,i+1);
+        printf("Present %d",i+1);
         return 1;
     }
   }
-  printf("Key not Found\n%d\n",i);
+  printf("Not Present %d",i);
   return 0;
 }
 int main(){
@@ -25,4 +25,3 @@ int main(){
   }
   return 0;
 }
-
