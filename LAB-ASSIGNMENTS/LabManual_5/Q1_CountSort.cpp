@@ -43,25 +43,5 @@ int main()
             cout<<(char)maxOccur<<" - "<<count[maxOccur]<<endl;    
         else 
             cout<<"No Duplicates Found"<<endl;
-
-    // Sorting Alphabets in accending     
-    //     int i=65,j=0;    
-    //     while(i<max+1)  
-    //     {
-    //         if(count[i]>0)
-    //         {
-    //             a[j] = i;
-    //             count[i] = count[i] - 1 ; 
-    //             j++; 
-    //         }
-    //         else{
-    //             i++;  
-    //         }
-    //     }
-
-    //     for(int i=0;i<n;i++)
-    //         cout<<a[i]<<" ";
-    //     cout<<endl;  
-    // } 
     return 0; 
 }
